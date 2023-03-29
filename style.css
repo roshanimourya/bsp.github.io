@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color: rgb(179, 81, 224);
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px;
+    width: auto;
+    height: 30rem;
+
+}
+img{
+    width: 120%;
+    height: 30rem;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+    border-top-left-radius: 30px;
+}
+login.h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    box-shadow: 2px 5px 2px 5px rgba(0, 0, 0, 0.75);
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    background-color: blueviolet;
+    color: white;
+    
+}
+.btn1:hover{
+    background-color: violet;
+    transition: 0.5s;
+}
+.fa-facebook{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-facebook:hover{
+    color:blue;
+}
+.fa-instagram {
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-instagram:hover{
+    color: rgb(182, 13, 111);
+}
+.fa-linkedin{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-linkedin:hover{
+    color: blue;
+}
